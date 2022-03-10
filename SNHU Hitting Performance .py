@@ -29,7 +29,7 @@ SNHU_2020 = pd.read_html('https://snhupenmen.com/sports/baseball/stats/2020', he
 SNHU_2021 = pd.read_html('https://snhupenmen.com/sports/baseball/stats/2021', header = 0)
 SNHU_2022 = pd.read_html('https://snhupenmen.com/sports/baseball/stats/2022', header = 0)
 
-
+h
 # In[3]:
 
 
