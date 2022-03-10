@@ -456,11 +456,20 @@ plt.style.use("fivethirtyeight")
 
 # In[12]:
 
+#Seaborn Settings 
+sns.set(rc={'figure.figsize':(11.7,8.27)})
+sns.set(color_codes = True)
 
 
 
+# In[13]:
 
-# In[ ]:
+#Normal Distribution Model 
+sns.distplot(Plus20AB_All['wOBA'])
+plt.title('wOBA Distribution')
+plt.xlabel('Standard Deviations')
+sns.set_style('ticks')
+plt.show()
 
 
 
