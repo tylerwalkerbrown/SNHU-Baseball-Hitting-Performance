@@ -172,15 +172,9 @@ sns.set(color_codes = True)
 
 
 #Normal Distribution Model 
-sns.distplot(Frame['Starting percentage'])
+sns.distplot(Frame['Starting Percentage'])
 plt.title('Playing Time Distribution')
 plt.xlabel('Standard Deviations')
 sns.set_style('ticks')
 plt.show()
-
-
-# In[ ]:
-
-
-
 
